@@ -3,6 +3,10 @@
     src: url("font/Dekiru.ttf") format("woff2"), url("font/Dekiru.ttf") format("woff");
 }
 
+body{
+margin:0;
+}
+
 #hd {
     position: fixed;
     display: flex;
@@ -10,6 +14,8 @@
     height: 5vw;
     top: 0;
     left: 0;
+    margin:0;
+    padding:0;
     justify-content: space-between;
     align-items: center;
     background: #000000;
@@ -548,6 +554,7 @@
     height: 50vw;
     bottom: -156.5vw;
     right: 0;
+    opacity: 0;
 }
 
 @media screen and (max-width: 768px) {
