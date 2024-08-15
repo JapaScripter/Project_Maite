@@ -610,3 +610,32 @@ margin:0;
         left: 5vw;
     }
 }
+
+.whatson{
+    position: fixed;
+    width:8vw;
+    bottom:2vw;
+    right:2vw;
+    z-index:2;
+    animation: shake 2s infinite ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .whatson{
+        width:20vw;
+        bottom:15vw;
+        right:2vw;
+    }
+}
