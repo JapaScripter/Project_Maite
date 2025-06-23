@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/maite_logo.png" alt="Logo da Maite Esquadrias" width="200"/>
+  <img src="images/ogo.webp" alt="Logo da Maite Esquadrias" width="200"/>
 </p>
 
 <h1 align="center">Site Institucional - Maite Esquadrias Personalizadas</h1>
